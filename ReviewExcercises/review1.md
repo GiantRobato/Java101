@@ -14,7 +14,7 @@ Write a program that asks for a users name and age.
 Using that info, print out the following given the conditions
 
 | age			|	message								|
-| ----------------------------------------------------- |
+| ------------- | ------------------------------------- |
 | less than 16	|	"You can't drive."					|
 | 16 to 17		|	"You can drive but not vote"		|
 | 18 to 24		|	"You can vote but not rent a car"	|
