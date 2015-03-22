@@ -43,7 +43,46 @@ String words;
 words = "more words!";
 ```
 
+## Getting Input
 
+```
+//Need this in order to get input
+import java.util.Scanner;
+
+public class myProgram {
+
+	public static void main(String[] args) {
+
+		//This means we are getting input from the console
+		Scanner input = new Scanner(System.in);
+
+		//Integers
+		int n;
+
+		System.out.println("This is how you get an integer input");
+		System.out.print("Please type in an integer: ");
+
+		n = input.nextInt();
+
+		System.out.println("You just typed: " + n);
+
+
+		//Doubles
+		double d;
+
+		System.out.println("This is how you get a double input");
+		System.out.print("Please type in a double: ");
+
+		d = input.nextInt();
+
+		System.out.println("You just typed: " + d);
+
+
+
+	}
+}
+
+```
 
 
 
