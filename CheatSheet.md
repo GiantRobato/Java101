@@ -1,17 +1,12 @@
 #Cheat Sheet
-------------
 
 This is a cheat sheet for common programming things in java.
 
 ##Outline
----------
 
 * [Bare Minimum Code] (#Bare Minimum)
 
----
-
 ##Bare Minimum
---------------
 This is the bare minimum you need to get a program working in java:
 
 ```
