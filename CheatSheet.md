@@ -66,7 +66,6 @@ public class myProgram {
 
 		System.out.println("You just typed: " + n);
 
-
 		//Doubles
 		double d;
 
@@ -77,7 +76,15 @@ public class myProgram {
 
 		System.out.println("You just typed: " + d);
 
+		//Strings
+		String s;
 
+		System.out.println("This is how you get a String input");
+		System.out.print("Please type in a String: ");
+
+		s = input.nextLine();
+
+		System.out.println("You just typed: " + s);
 
 	}
 }
