@@ -91,7 +91,27 @@ public class myProgram {
 
 ```
 
+## For loops
 
+```
+//This will run 10 times
+for(int i = 0; i < 10; i++){
+	System.out.println("Hello! Count = " + i);
+}
+```
 
+This will print out:
+```
+Hello! 0
+Hello! 1
+Hello! 2
+Hello! 3
+Hello! 4
+Hello! 5
+Hello! 6
+Hello! 7
+Hello! 8
+Hello! 9
+```
 
 
