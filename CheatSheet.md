@@ -114,4 +114,31 @@ Hello! 8
 Hello! 9
 ```
 
+## If
 
+```
+//This will print out Hello
+if(1 == 1){
+	printf("Hello");
+}
+
+//This will print out Goodbye since the "condition" is false
+if(1 == 2){
+	printf("Hello");
+} else {
+	printf("Goodbye");
+}
+
+//This prints "I Love Veggies!" but uses a variable instead
+boolean veggieLover = true;
+
+if(veggieLover == true){
+	printf("I Love Veggies!");
+}
+
+//an equivalent way is:
+if(veggieLover){
+	printf("I Love Veggies!");
+}
+
+```
