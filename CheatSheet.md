@@ -119,26 +119,53 @@ Hello! 9
 ```
 //This will print out Hello
 if(1 == 1){
-	printf("Hello");
+	System.out.print("Hello");
 }
 
 //This will print out Goodbye since the "condition" is false
 if(1 == 2){
-	printf("Hello");
+	System.out.print("Hello");
 } else {
-	printf("Goodbye");
+	System.out.print("Goodbye");
 }
 
 //This prints "I Love Veggies!" but uses a variable instead
 boolean veggieLover = true;
 
 if(veggieLover == true){
-	printf("I Love Veggies!");
+	System.out.print("I Love Veggies!");
 }
 
 //an equivalent way is:
 if(veggieLover){
-	printf("I Love Veggies!");
+	System.out.print("I Love Veggies!");
 }
 
 ```
+Here is how you use multiple conditions
+```
+boolean isAlive = true;
+boolean isRobot = true;
+
+//if you are alive and are a robot
+if((isAlive == true) && (isRobot == true)){
+	System.out.print("You are an android");
+} else if((isAlive == true) && (isRobot == false)){
+	System.out.print("You are a Human");
+} else {
+	System.out.print("You are a robot");
+}
+
+boolean isMagic = true;
+boolean isReal  = true;
+
+//if you are magic or you are real
+if(isMagic == true || isReal == true){
+	System.out.print("You are Amazing");
+} else {
+	System.out.print("You are Meh");
+}
+
+```
+
+
